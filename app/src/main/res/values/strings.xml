@@ -1,15 +1,16 @@
 <resources>
-    <string name="app_name">Channelify</string>
+    <string name="app_name">Birthday Shorts</string>
 
     <!-- App Related Info -->
-    <string name="channel_id">UCDECw2OgDesM3Cr-DWxT3HQ</string>
+    <string name="channel_id">UCcuuXYSvosuxCReKK_F2JzQ</string>
     <string name="store_url">https://teespring.com/stores/the-engineers-cafe</string>
-    <string name="text_app_desc">Channelify is a native Android app, designed and developed by Aculix Technologies LLP to show the videos from a particular channel.</string>
-    <string name="text_website_url">https://aculix.com/</string>
+    <string name="text_app_desc">Hello and welcome to my channel. Here are birthday songs for all people in the world. Each song a unikat extra sung for the respective first name. I hope you have fun do not forget to comment and like.
+I usually sing "Happy Birthday to You" and am happy about everyone I can congratulate on his birthday.</string>
+    <string name="text_website_url">https://www.paypal.com/paypalme/Geburtstagskanal</string>
     <string name="text_google_play_developer_id">8784124228561333652</string>
     <string name="text_google_play_developer_name">Aculix Technologies LLP</string>
     <string name="text_instagram_user_name">aculix</string>
-    <string name="text_contact_email">contact@aculix.com</string>
+    <string name="text_contact_email">Birthday@ytvideo.de</string>
     <string name="text_app_feedback_email_subject">Feedback - Channelify</string>
     <string name="text_tos_url">https://channelify.aculix.com/terms-of-service.html</string>
     <string name="text_privacy_policy_url">https://channelify.aculix.com/privacy-policy.html</string>

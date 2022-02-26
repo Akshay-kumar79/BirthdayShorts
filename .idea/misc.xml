@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Akshay kumar shaw/StudioProjects/Channelify/app/src/main/res/drawable/ic_website.xml" value="0.362962962962963" />
+        <entry key="..\:/Users/Akshay kumar shaw/StudioProjects/Channelify/app/src/main/res/layout/fragment_app_info.xml" value="0.32037037037037036" />
+        <entry key="..\:/Users/Akshay kumar shaw/StudioProjects/Channelify/app/src/main/res/menu/app_info_menu.xml" value="0.32037037037037036" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>

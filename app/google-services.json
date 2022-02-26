@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1089934607862",
+    "project_id": "youtube-channel-app-342516",
+    "storage_bucket": "youtube-channel-app-342516.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1089934607862:android:682d33f23add4ef52433d7",
+        "android_client_info": {
+          "package_name": "birthday.short.androidapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1089934607862-a58q35nq21tlibnd0tk31ut93nrmh1fi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYLC7ft_tNEMv0d751Xpz-859u0M8Hedg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1089934607862-a58q35nq21tlibnd0tk31ut93nrmh1fi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

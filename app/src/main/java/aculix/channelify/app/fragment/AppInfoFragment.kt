@@ -25,8 +25,6 @@ class AppInfoFragment : Fragment(R.layout.fragment_app_info) {
         ivLogoAppInfo.load(R.drawable.logo_splash)
 
         onWebsiteClick()
-        onGooglePlayClick()
-        onInstagramClick()
         onEmailClick()
         onNavigationViewMenuItemClick()
     }
@@ -40,46 +38,6 @@ class AppInfoFragment : Fragment(R.layout.fragment_app_info) {
     private fun onWebsiteClick() {
         ivWebsiteAppInfo.setOnClickListener {
             context?.openUrl(getString(R.string.text_website_url), R.color.defaultBgColor)
-        }
-    }
-
-    private fun onGooglePlayClick() {
-        ivGooglePlayAppInfo.setOnClickListener {
-            try {
-                // Try to open in the Google Play app
-                startActivity(
-                    Intent(
-                        Intent.ACTION_VIEW,
-                        Uri.parse("market://search?q=pub:${getString(R.string.text_google_play_developer_name)}")
-                    )
-                )
-            } catch (exception: Throwable) {
-                // Google Play app is not installed. Open URL in the browser.
-                context?.openUrl(
-                    "https://play.google.com/store/apps/dev?id=${getString(R.string.text_google_play_developer_id)}",
-                    R.color.defaultBgColor
-                )
-            }
-        }
-    }
-
-    private fun onInstagramClick() {
-        ivInstagramAppInfo.setOnClickListener {
-            try {
-                // Try to open in the Instagram app
-                startActivity(
-                    Intent(
-                        Intent.ACTION_VIEW,
-                        Uri.parse("https://instagram.com/_u/${getString(R.string.text_instagram_user_name)}")
-                    )
-                )
-            } catch (exception: android.content.ActivityNotFoundException) {
-                // Instagram app is not installed. Open URL in the browser.
-                context?.openUrl(
-                    "https://instagram.com/${getString(R.string.text_instagram_user_name)}",
-                    R.color.defaultBgColor
-                )
-            }
         }
     }
 
